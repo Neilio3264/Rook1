@@ -1,0 +1,268 @@
+[2019-10-19T17:21:57.933] [INFO] main - Logger initialized.
+[2019-10-19T17:21:57.936] [FATAL] main - ===== Server config: =====
+[2019-10-19T17:21:57.937] [FATAL] main - {
+  "heartbeatInterval": 5,
+  "baseDir": "/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/shardus-instance-9003",
+  "transactionExpireTime": 5,
+  "crypto": {
+    "hashKey": "69fa4195670576c0160d660c3be36556ff8d504725be8a59b5a96509e0c994bc"
+  },
+  "p2p": {
+    "ipServer": "api.ipify.org/?format=json",
+    "timeServers": [
+      "0.pool.ntp.org",
+      "1.pool.ntp.org",
+      "2.pool.ntp.org",
+      "3.pool.ntp.org"
+    ],
+    "syncLimit": 180,
+    "cycleDuration": 15,
+    "maxRejoinTime": 20,
+    "seedList": "http://127.0.0.1:4000/api/seednodes",
+    "difficulty": 2,
+    "queryDelay": 1,
+    "netadmin": "758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3",
+    "gossipRecipients": 4,
+    "gossipTimeout": 180,
+    "maxSeedNodes": 10,
+    "minNodes": 1,
+    "maxNodes": 20,
+    "seedNodeOffset": 4,
+    "nodeExpiryAge": 180,
+    "maxNodesToRotate": 1,
+    "maxNodesPerCycle": 5,
+    "maxPercentOfDelta": 40,
+    "scaleReqsNeeded": 5,
+    "maxScaleReqs": 10,
+    "amountToScale": 1
+  },
+  "ip": {
+    "externalIp": "127.0.0.1",
+    "externalPort": 9003,
+    "internalIp": "127.0.0.1",
+    "internalPort": 10003
+  },
+  "network": {
+    "timeout": 10
+  },
+  "reporting": {
+    "report": true,
+    "recipient": "http://127.0.0.1:3000/api",
+    "interval": 2,
+    "console": false
+  },
+  "debug": {
+    "loseReceiptChance": 0,
+    "loseTxChance": 0
+  },
+  "statistics": {
+    "save": true,
+    "interval": 1
+  },
+  "loadDetection": {
+    "queueLimit": 1000,
+    "desiredTxTime": 15,
+    "highThreshold": 0.5,
+    "lowThreshold": 0.2
+  },
+  "rateLimiting": {
+    "limitRate": true,
+    "loadLimit": 0.5
+  },
+  "stateManager": {
+    "stateTableBucketSize": 200,
+    "accountBucketSize": 50
+  }
+}
+[2019-10-19T17:21:57.937] [DEBUG] main - Start of _getApplicationInterfaces()
+[2019-10-19T17:21:57.937] [DEBUG] main - End of _getApplicationInterfaces()
+[2019-10-19T17:21:57.939] [INFO] main - Created Database directory.
+[2019-10-19T17:21:57.947] [INFO] main - Database initialized.
+[2019-10-19T17:21:57.948] [INFO] main - Keypair unable to be loaded from database. Generating new keypair...
+[2019-10-19T17:21:57.949] [INFO] main - New keypair generated.
+[2019-10-19T17:21:57.949] [INFO] main - New keypair successfully generated and saved to database.
+[2019-10-19T17:21:57.951] [DEBUG] main - Loaded 0 cycles from the database.
+[2019-10-19T17:21:57.951] [DEBUG] main - Loaded 0 nodes from the database.
+[2019-10-19T17:21:57.955] [INFO] main - External server running on port 9003...
+[2019-10-19T17:21:57.958] [DEBUG] main - Emitting `joining` event.
+[2019-10-19T17:21:57.976] [DEBUG] main - Got signed seed list: {"seedNodes":[{"ip":"127.0.0.1","port":9001}],"sign":{"owner":"758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3","sig":"cd0f36cf6159a99f4a9051540eb3be66e682cc027ff2bb31e82a04a55be4059c72167248f60e4136b28c22e1cdf356354f16099e1bc385ea20dfa4a0baa8670377e44fb1cf8a313f994dbc2c8bc444d4f79a36cf38bec553fa868e422139d680"}}
+[2019-10-19T17:21:58.021] [INFO] main - You are not the first seed node...
+[2019-10-19T17:21:58.021] [DEBUG] main - Node needs to join, no node ID found in database.
+[2019-10-19T17:21:58.021] [DEBUG] main - Clearing P2P state...
+[2019-10-19T17:21:58.021] [INFO] main - Clearing P2P state in memory and in database...
+[2019-10-19T17:21:58.022] [INFO] main - P2P data cleared from database.
+[2019-10-19T17:21:58.027] [DEBUG] main - Time offset with selected node: 0
+[2019-10-19T17:21:58.030] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523718,"activeTimestamp":0}
+[2019-10-19T17:21:58.163] [DEBUG] main - Join request created... Join request: {"cycleMarker":"0000000000000000000000000000000000000000000000000000000000000000","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523718,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"11e3a052eb41ef1d784374d32a79dc13393fd428d3ee93d018f562b81064a8f6","nonce":"8fbbd82c7de736c274a1feed97947b515b5e65b8430eabea3fba87ba26b33803"}},"selectionNum":"86fe78c1a36173e7a7c86a5b8de7e9b64b895f90c22d3d72dfd6afd79100e90c","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"4ec3ac3f4f148721972d896716e8ca9fab6969397b562b2aa599e94e348080b86efc524722422e909fa3c15b8a33649858bdbc31c23939079bf5afa735c99d05ec9c05b3b5acc09ae6543c59017c26265844c00b4d6b58de456eb056b1052f10"}}
+[2019-10-19T17:21:58.163] [DEBUG] main - Current time is: 1571523718
+[2019-10-19T17:21:58.163] [DEBUG] main - Current cycle started at: 1571523717
+[2019-10-19T17:21:58.164] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:21:58.164] [DEBUG] main - Start of first quarter: 1571523717
+[2019-10-19T17:21:58.164] [DEBUG] main - End of first quarter: 1571523721
+[2019-10-19T17:21:58.164] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:21:58.183] [DEBUG] main - Current time is: 1571523718
+[2019-10-19T17:21:58.183] [DEBUG] main - Current cycle started at: 1571523732
+[2019-10-19T17:21:58.183] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:21:58.183] [DEBUG] main - End of cycle at: 1571523747
+[2019-10-19T17:21:58.183] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:22:28.188] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523748,"activeTimestamp":0}
+[2019-10-19T17:22:28.196] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:22:28.200] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523748,"activeTimestamp":0}
+[2019-10-19T17:22:28.304] [DEBUG] main - Join request created... Join request: {"cycleMarker":"d01cc404d267c62714305291e79ed1b618dc17239311d9253b4a43bae391d7d4","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523748,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"2cce6d13c640fddd10bafa7b406c60e4660a0d78ef583229db4c1a1493415d77","nonce":"87cf3df3417ef03d6c479fe4b82f05a4cb99b2b1522d4e3d530704766b930126"}},"selectionNum":"17a71a79444b888fa222cc2a3ae762b0d857f678c194f67ed816b7a5734e386e","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"2c5243caf599433a845f4ce0f0317a87a40f6d1ef034cc6b60f75a15fa310c70f6c7b08dab0a6f5a4e9986c6accbaff120a4273fa38d91d6232eb05ce5ee9004e53820992177a7ce7e06c761711247793f5930b3762bac277e35ea801ec48224"}}
+[2019-10-19T17:22:28.304] [DEBUG] main - Current time is: 1571523748
+[2019-10-19T17:22:28.304] [DEBUG] main - Current cycle started at: 1571523747
+[2019-10-19T17:22:28.304] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:22:28.304] [DEBUG] main - Start of first quarter: 1571523747
+[2019-10-19T17:22:28.304] [DEBUG] main - End of first quarter: 1571523751
+[2019-10-19T17:22:28.305] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:22:28.309] [DEBUG] main - Current time is: 1571523748
+[2019-10-19T17:22:28.310] [DEBUG] main - Current cycle started at: 1571523762
+[2019-10-19T17:22:28.310] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:22:28.310] [DEBUG] main - End of cycle at: 1571523777
+[2019-10-19T17:22:28.310] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:22:58.309] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523778,"activeTimestamp":0}
+[2019-10-19T17:22:58.314] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:22:58.314] [INFO] main - Unable to join network. Shutting down...
+[2019-10-19T17:22:58.314] [DEBUG] main - join failed. outer attemps left: 100
+[2019-10-19T17:22:58.317] [DEBUG] main - Got signed seed list: {"seedNodes":[{"ip":"127.0.0.1","port":9001}],"sign":{"owner":"758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3","sig":"cd0f36cf6159a99f4a9051540eb3be66e682cc027ff2bb31e82a04a55be4059c72167248f60e4136b28c22e1cdf356354f16099e1bc385ea20dfa4a0baa8670377e44fb1cf8a313f994dbc2c8bc444d4f79a36cf38bec553fa868e422139d680"}}
+[2019-10-19T17:23:08.322] [WARN] main - Couldn't fetch ntp time from server at 0.pool.ntp.org
+[2019-10-19T17:23:08.387] [INFO] main - You are not the first seed node...
+[2019-10-19T17:23:08.391] [DEBUG] main - Node needs to join, no node ID found in database.
+[2019-10-19T17:23:08.391] [DEBUG] main - Clearing P2P state...
+[2019-10-19T17:23:08.392] [INFO] main - Clearing P2P state in memory and in database...
+[2019-10-19T17:23:08.393] [INFO] main - P2P data cleared from database.
+[2019-10-19T17:23:08.400] [DEBUG] main - Time offset with selected node: 0
+[2019-10-19T17:23:08.402] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523788,"activeTimestamp":0}
+[2019-10-19T17:23:08.510] [DEBUG] main - Join request created... Join request: {"cycleMarker":"0eab60965e548dd77c46a9c5e93e146892f4fc50d8fbc040d1df40f202b881c3","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523788,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"27e8f3eb59d4802586077b85cc8c693dba3a4d0e0f5aebf4aada0df0bc0ec445","nonce":"9461838e4875abe89f2b542f3f99429252edf28d53ac57af6552259145b908dd"}},"selectionNum":"3e67be0bb843c3178083398d039a768dabd6df34336a04f809bac9491d2b54ef","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"be19e562e1d4afe5faa54c1fea9f4ef931f7c56ae24941cfa010fb3e0cd9e955c4c487408cf3078ad265f01e83f7acfae72d0f7346ff1ee75b0e935b479aee0c400a731f4e24c6332147bd796f9a91ab624bf52ef9ea51e23ebdd45e31871296"}}
+[2019-10-19T17:23:08.510] [DEBUG] main - Current time is: 1571523788
+[2019-10-19T17:23:08.510] [DEBUG] main - Current cycle started at: 1571523777
+[2019-10-19T17:23:08.510] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:08.510] [DEBUG] main - Start of first quarter: 1571523777
+[2019-10-19T17:23:08.510] [DEBUG] main - End of first quarter: 1571523781
+[2019-10-19T17:23:08.511] [DEBUG] main - Current time is: 1571523788
+[2019-10-19T17:23:08.511] [DEBUG] main - Current cycle started at: 1571523777
+[2019-10-19T17:23:08.511] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:08.511] [DEBUG] main - Next join cycle starts at: 1571523792
+[2019-10-19T17:23:08.511] [DEBUG] main - Waiting for 5000 ms before next update phase...
+[2019-10-19T17:23:13.513] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:23:13.517] [DEBUG] main - Current time is: 1571523793
+[2019-10-19T17:23:13.517] [DEBUG] main - Current cycle started at: 1571523792
+[2019-10-19T17:23:13.517] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:13.518] [DEBUG] main - End of cycle at: 1571523807
+[2019-10-19T17:23:13.518] [DEBUG] main - Waiting for 15000 ms before next cycle marker creation...
+[2019-10-19T17:23:28.522] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523808,"activeTimestamp":0}
+[2019-10-19T17:23:28.527] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:23:28.532] [DEBUG] main - Current time is: 1571523808
+[2019-10-19T17:23:28.532] [DEBUG] main - Current cycle started at: 1571523807
+[2019-10-19T17:23:28.532] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:28.532] [DEBUG] main - Start of first quarter: 1571523807
+[2019-10-19T17:23:28.532] [DEBUG] main - End of first quarter: 1571523811
+[2019-10-19T17:23:28.532] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:23:28.535] [DEBUG] main - Current time is: 1571523808
+[2019-10-19T17:23:28.535] [DEBUG] main - Current cycle started at: 1571523822
+[2019-10-19T17:23:28.535] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:28.535] [DEBUG] main - End of cycle at: 1571523837
+[2019-10-19T17:23:28.535] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:23:58.534] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523838,"activeTimestamp":0}
+[2019-10-19T17:23:58.538] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:23:58.540] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523838,"activeTimestamp":0}
+[2019-10-19T17:23:58.644] [DEBUG] main - Join request created... Join request: {"cycleMarker":"e029a123d7768fc0c5156653d2a01d5680b076f7cdf84aaf16d85322f5428eb7","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523838,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"3698f2d48c646fd367f2cf1f7df445dc88c3952e38c94fa00ee00df2f62e6e79","nonce":"de6e83c1622cf46901a4dfb74efb10266a5a08cc304a578245301820fe4b966f"}},"selectionNum":"09d86036b15516477f1041c62eca1a176f853c6c6d2761513d92812c04ac8447","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"021ab5d16cddb1b3152863ddd917c2946d760032d0a06d8cb74f44d19b620d5facfd77f11b5dde8c38a33c2dae09ab7f94607479538d3ecd9dada84784f3c508ca3720de2abf1d0159131ca6038341c3a596f25e1b56b15a737c8d22f7b77731"}}
+[2019-10-19T17:23:58.645] [DEBUG] main - Current time is: 1571523838
+[2019-10-19T17:23:58.645] [DEBUG] main - Current cycle started at: 1571523837
+[2019-10-19T17:23:58.645] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:58.645] [DEBUG] main - Start of first quarter: 1571523837
+[2019-10-19T17:23:58.645] [DEBUG] main - End of first quarter: 1571523841
+[2019-10-19T17:23:58.645] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:23:58.648] [DEBUG] main - Current time is: 1571523838
+[2019-10-19T17:23:58.648] [DEBUG] main - Current cycle started at: 1571523852
+[2019-10-19T17:23:58.648] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:23:58.648] [DEBUG] main - End of cycle at: 1571523867
+[2019-10-19T17:23:58.648] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:24:28.648] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523868,"activeTimestamp":0}
+[2019-10-19T17:24:28.652] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:24:28.652] [INFO] main - Unable to join network. Shutting down...
+[2019-10-19T17:24:28.652] [DEBUG] main - join failed. outer attemps left: 99
+[2019-10-19T17:24:28.656] [DEBUG] main - Got signed seed list: {"seedNodes":[{"ip":"127.0.0.1","port":9001}],"sign":{"owner":"758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3","sig":"cd0f36cf6159a99f4a9051540eb3be66e682cc027ff2bb31e82a04a55be4059c72167248f60e4136b28c22e1cdf356354f16099e1bc385ea20dfa4a0baa8670377e44fb1cf8a313f994dbc2c8bc444d4f79a36cf38bec553fa868e422139d680"}}
+[2019-10-19T17:24:38.657] [WARN] main - Couldn't fetch ntp time from server at 0.pool.ntp.org
+[2019-10-19T17:24:38.723] [INFO] main - You are not the first seed node...
+[2019-10-19T17:24:38.723] [DEBUG] main - Node needs to join, no node ID found in database.
+[2019-10-19T17:24:38.723] [DEBUG] main - Clearing P2P state...
+[2019-10-19T17:24:38.723] [INFO] main - Clearing P2P state in memory and in database...
+[2019-10-19T17:24:38.724] [INFO] main - P2P data cleared from database.
+[2019-10-19T17:24:38.727] [DEBUG] main - Time offset with selected node: 0
+[2019-10-19T17:24:38.729] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523878,"activeTimestamp":0}
+[2019-10-19T17:24:38.845] [DEBUG] main - Join request created... Join request: {"cycleMarker":"f44cdef8fdeb36b0b6371e0a22d70c23276491a0eff903cb9a406a365ebd8cea","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523878,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"13c28bd657cae55b439fba0c6b4d19d097d656424301f28d2248005c332cc33f","nonce":"95f923e8838b39e5a0b71b0102217e4f5691a7d9b1a149c1f5c8010cbd76bd6f"}},"selectionNum":"f60c49ef7b8a21cf2b1b83f6ec810e790581782df6d7d6b2234f503ead528845","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"33adfb7219a7b8cc981896d21110e04af0fe3d2de30f0b0dbf489d66878d05b592a44465d4faeb0a874e4e2ea7f9208bb9edff19c1c7ac5c6457d3c8cd547108247dc1add22f6974336a691da4aa9e8978c234b2edcca3c8dd3699a47eb4978d"}}
+[2019-10-19T17:24:38.845] [DEBUG] main - Current time is: 1571523878
+[2019-10-19T17:24:38.845] [DEBUG] main - Current cycle started at: 1571523867
+[2019-10-19T17:24:38.845] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:24:38.845] [DEBUG] main - Start of first quarter: 1571523867
+[2019-10-19T17:24:38.845] [DEBUG] main - End of first quarter: 1571523871
+[2019-10-19T17:24:38.845] [DEBUG] main - Current time is: 1571523878
+[2019-10-19T17:24:38.845] [DEBUG] main - Current cycle started at: 1571523867
+[2019-10-19T17:24:38.845] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:24:38.845] [DEBUG] main - Next join cycle starts at: 1571523882
+[2019-10-19T17:24:38.845] [DEBUG] main - Waiting for 5000 ms before next update phase...
+[2019-10-19T17:24:43.848] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:24:43.857] [DEBUG] main - Current time is: 1571523883
+[2019-10-19T17:24:43.857] [DEBUG] main - Current cycle started at: 1571523882
+[2019-10-19T17:24:43.857] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:24:43.857] [DEBUG] main - End of cycle at: 1571523897
+[2019-10-19T17:24:43.857] [DEBUG] main - Waiting for 15000 ms before next cycle marker creation...
+[2019-10-19T17:24:58.859] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523898,"activeTimestamp":0}
+[2019-10-19T17:24:58.863] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:24:58.866] [DEBUG] main - Current time is: 1571523898
+[2019-10-19T17:24:58.866] [DEBUG] main - Current cycle started at: 1571523897
+[2019-10-19T17:24:58.866] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:24:58.866] [DEBUG] main - Start of first quarter: 1571523897
+[2019-10-19T17:24:58.866] [DEBUG] main - End of first quarter: 1571523901
+[2019-10-19T17:24:58.866] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:24:58.869] [DEBUG] main - Current time is: 1571523898
+[2019-10-19T17:24:58.869] [DEBUG] main - Current cycle started at: 1571523912
+[2019-10-19T17:24:58.869] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:24:58.869] [DEBUG] main - End of cycle at: 1571523927
+[2019-10-19T17:24:58.869] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:25:28.870] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523928,"activeTimestamp":0}
+[2019-10-19T17:25:28.874] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:25:28.878] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523928,"activeTimestamp":0}
+[2019-10-19T17:25:29.005] [DEBUG] main - Join request created... Join request: {"cycleMarker":"03032c5e24d86dfb3957d4894e7ec2f2ff77733c819f094245f89ef0551a7004","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523928,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"0137733176820483cf6c07f5c801bca0a774589ddb5bcb53c727342d02e544ce","nonce":"6218c7e4d00be437a4cc41a78efcad71e3fc634e25aa6b871ff72e4d7f993fc1"}},"selectionNum":"90350d80b075a39069c941a6157219a23530e559c98efcbe268367accf236b35","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"3acde23742a2d7937f8be269c875e6d2af752b816bc3282dd9d2406768c7e7caf271ec5b15b7a613061f91bf1ff4a8789912641df3784c7fa7a6d9283472fb0e42a7719e8d7d51495ef5eef9b57fbad728a310f9bb43cfbe957316634201829d"}}
+[2019-10-19T17:25:29.006] [DEBUG] main - Current time is: 1571523929
+[2019-10-19T17:25:29.006] [DEBUG] main - Current cycle started at: 1571523927
+[2019-10-19T17:25:29.006] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:25:29.006] [DEBUG] main - Start of first quarter: 1571523927
+[2019-10-19T17:25:29.006] [DEBUG] main - End of first quarter: 1571523931
+[2019-10-19T17:25:29.006] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:25:29.010] [DEBUG] main - Current time is: 1571523929
+[2019-10-19T17:25:29.010] [DEBUG] main - Current cycle started at: 1571523942
+[2019-10-19T17:25:29.010] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:25:29.010] [DEBUG] main - End of cycle at: 1571523957
+[2019-10-19T17:25:29.010] [DEBUG] main - Waiting for 29000 ms before next cycle marker creation...
+[2019-10-19T17:25:58.010] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523958,"activeTimestamp":0}
+[2019-10-19T17:25:58.020] [INFO] main - Unable to get cycle marker, likely this node's join request was not accepted.
+[2019-10-19T17:25:58.020] [INFO] main - Unable to join network. Shutting down...
+[2019-10-19T17:25:58.020] [DEBUG] main - join failed. outer attemps left: 98
+[2019-10-19T17:25:58.023] [DEBUG] main - Got signed seed list: {"seedNodes":[{"ip":"127.0.0.1","port":9001}],"sign":{"owner":"758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3","sig":"cd0f36cf6159a99f4a9051540eb3be66e682cc027ff2bb31e82a04a55be4059c72167248f60e4136b28c22e1cdf356354f16099e1bc385ea20dfa4a0baa8670377e44fb1cf8a313f994dbc2c8bc444d4f79a36cf38bec553fa868e422139d680"}}
+[2019-10-19T17:25:58.053] [INFO] main - You are not the first seed node...
+[2019-10-19T17:25:58.053] [DEBUG] main - Node needs to join, no node ID found in database.
+[2019-10-19T17:25:58.053] [DEBUG] main - Clearing P2P state...
+[2019-10-19T17:25:58.053] [INFO] main - Clearing P2P state in memory and in database...
+[2019-10-19T17:25:58.054] [INFO] main - P2P data cleared from database.
+[2019-10-19T17:25:58.057] [DEBUG] main - Time offset with selected node: 0
+[2019-10-19T17:25:58.059] [DEBUG] main - Node info of this node: {"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","joinRequestTimestamp":1571523958,"activeTimestamp":0}
+[2019-10-19T17:25:58.179] [DEBUG] main - Join request created... Join request: {"cycleMarker":"bd183a45add72a29ed30fabf0ee3a35f1c73af16f0e6d470647cb5ddf255967c","nodeInfo":{"activeTimestamp":0,"address":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"joinRequestTimestamp":1571523958,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235"},"proofOfWork":{"compute":{"hash":"14fa5750253b57b2472ed756b48de9f29c7b6395f10b6acdecf1512169fe47af","nonce":"3c501f33783303779db078e01a4131d17f9c7c869d790adb717a386bddc072cc"}},"selectionNum":"9d7d28bec38e072a10ff753731b6906f586f76a0a9360d1410132dc7f2608130","sign":{"owner":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","sig":"3e192d11e8f44e570190549adab4b0dabadaeba615cae94520733b68c8d6e74f179287778e868b913d53c30c5eafec52aab0ddb56ecb1052fcf5b330a6af16066f8084010b6f07b861b28386bba5c91d504b555de4b914c1a9695a34a7d91f1f"}}
+[2019-10-19T17:25:58.179] [DEBUG] main - Current time is: 1571523958
+[2019-10-19T17:25:58.179] [DEBUG] main - Current cycle started at: 1571523957
+[2019-10-19T17:25:58.179] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:25:58.179] [DEBUG] main - Start of first quarter: 1571523957
+[2019-10-19T17:25:58.180] [DEBUG] main - End of first quarter: 1571523961
+[2019-10-19T17:25:58.180] [DEBUG] main - Sending join request to 127.0.0.1:9001
+[2019-10-19T17:25:58.186] [DEBUG] main - Current time is: 1571523958
+[2019-10-19T17:25:58.186] [DEBUG] main - Current cycle started at: 1571523972
+[2019-10-19T17:25:58.186] [DEBUG] main - Current cycle duration: 15
+[2019-10-19T17:25:58.186] [DEBUG] main - End of cycle at: 1571523987
+[2019-10-19T17:25:58.186] [DEBUG] main - Waiting for 30000 ms before next cycle marker creation...
+[2019-10-19T17:26:19.418] [INFO] main - Stopping statistics reporting...
+[2019-10-19T17:26:19.419] [INFO] main - Stopping heartbeat...
+[2019-10-19T17:26:19.419] [INFO] main - Shutting down networking...
+[2019-10-19T17:26:19.420] [INFO] main - Writing heartbeat to database before exiting...
+[2019-10-19T17:26:19.420] [INFO] main - Closing Database connections...
+[2019-10-19T17:26:19.421] [INFO] main - Shutting down logs...

@@ -1,0 +1,3 @@
+[2019-10-19T18:23:08.223] [FATAL] fatal - unhandledRejection: Error: Fatal: Could not get seed list from seed node server http://127.0.0.1:4000/api/seednodes: connect ECONNREFUSED 127.0.0.1:4000
+    at module.exports.t.exports._getSeedListSigned (evalmachine.<anonymous>:1:26765)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

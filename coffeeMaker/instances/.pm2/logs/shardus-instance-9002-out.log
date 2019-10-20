@@ -1,0 +1,21 @@
+External server running on port 9002...
+Internal server running on port 10002...
+Q1 1571523942
+syncStateData start
+syncStateTableData startTime: 0 endTime: 1571523937448   time:1571523945448
+syncAccountData3   time:1571523945454
+syncStateTableData startTime: 1571523937449 endTime: 1571523945658   time:1571523945658
+Q2 1571523945
+Q3 1571523949
+Q4 1571523953
+setAccountData: 0
+setAccountData: 0
+syncStateData end   time:1571523953671
+Q1 1571523957
+Server ready!
+Q2 1571523960
+Q3 1571523964
+Q4 1571523968
+Q1 1571523972
+Q2 1571523975
+numnodes: 1

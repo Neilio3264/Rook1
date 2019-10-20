@@ -1,0 +1,170 @@
+{ kill_retry_time: '100',
+  windowsHide: 'true',
+  username: 'neil',
+  treekill: 'true',
+  automation: 'true',
+  pmx: 'true',
+  instance_var: 'NODE_APP_INSTANCE',
+  watch: 'false',
+  autorestart: 'true',
+  vizion: 'true',
+  merge_logs: 'true',
+  env: '[object Object]',
+  name: 'Seed-node-server',
+  node_args: '',
+  pm_exec_path:
+   '/usr/local/lib/node_modules/shardus/node_modules/seed-node-server/server.js',
+  pm_cwd:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances',
+  exec_interpreter: 'node',
+  instances: '1',
+  exec_mode: 'fork_mode',
+  pm_out_log_path:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/logs/Seed-node-server-out.log',
+  pm_err_log_path:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/logs/Seed-node-server-error.log',
+  pm_pid_path:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/pids/Seed-node-server-0.pid',
+  km_link: 'false',
+  vizion_running: 'false',
+  NODE_APP_INSTANCE: '0',
+  PM2_INTERACTOR_PROCESSING: 'true',
+  PM2_USAGE: 'CLI',
+  PM2_HOME:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/',
+  TIME_INTERVAL: '5',
+  PORT: '4000',
+  __CF_USER_TEXT_ENCODING: '0x1F5:0x0:0x0',
+  _: '/usr/local/bin/shardus',
+  PWD:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances',
+  SHLVL: '1',
+  PATH:
+   '/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/node_modules/.bin:/Users/neil/Documents/Hackathon/EMTech/coffeeMaker/node_modules/.bin:/Users/neil/Documents/Hackathon/EMTech/node_modules/.bin:/Users/neil/Documents/Hackathon/node_modules/.bin:/Users/neil/Documents/node_modules/.bin:/Users/neil/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Library/Apple/bin',
+  USER: 'neil',
+  LOGNAME: 'neil',
+  HOME: '/Users/neil',
+  SHELL: '/bin/zsh',
+  SSH_AUTH_SOCK: '/private/tmp/com.apple.launchd.Az47nQF2jH/Listeners',
+  TERM: 'xterm-256color',
+  TERM_SESSION_ID: 'C109310F-363A-4B28-B8B4-60C5106135DD',
+  XPC_SERVICE_NAME: '0',
+  TERM_PROGRAM: 'Apple_Terminal',
+  LANG: 'en_US.UTF-8',
+  TERM_PROGRAM_VERSION: '433',
+  XPC_FLAGS: '0x0',
+  TMPDIR: '/var/folders/9z/w61lmhsj5cl22d5nlp_ctq8r0000gn/T/',
+  unique_id: '9859ade6-fd78-48cc-961c-4b7fa0cb8693',
+  status: 'launching',
+  pm_uptime: '1571523715687',
+  axm_actions: '',
+  axm_monitor: '[object Object]',
+  axm_options: '[object Object]',
+  axm_dynamic: '[object Object]',
+  created_at: '1571523715687',
+  pm_id: '0',
+  restart_time: '0',
+  unstable_restarts: '0',
+  NODE_ENV: 'development',
+  HOST: '0.0.0.0',
+  QUERY_INTERVAL: '15',
+  LIST_SIZE: '0',
+  HASH_KEY:
+   '69fa4195670576c0160d660c3be36556ff8d504725be8a59b5a96509e0c994bc',
+  NET_ADMIN_PUBLIC_KEY:
+   '758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3',
+  NET_ADMIN_SECRET_KEY:
+   '3be00019f23847529bd63e41124864983175063bb524bd54ea3c155f2fa12969758b1c119412298802cd28dbfa394cdfeecc4074492d60844cc192d632d84de3' }
+Server started on port 4000
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9140138f0cd2134f92639c5f59cc5eba9e55415912e6cb99d97605effd465ad8","curvePublicKey":"d59a01ff5007771c527afcf99848764f2fd2d306f49c371475ba65b7c88cc244","externalIp":"127.0.0.1","externalPort":9001,"internalIp":"127.0.0.1","internalPort":10001,"status":null}}
+DBG Got first node!
+DBG ListManager.list set to: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 1 started at 22:21:57.159Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 1 got newList at 22:21:57.190Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"e2c8056ae83f1aab6e610202c8cde677e9c474cbc3714bc27b079ef70d59f57a","curvePublicKey":"76d9d847b4232e86bbd182b930c2fada25716e2ff04efceb6c59b1613232a12d","externalIp":"127.0.0.1","externalPort":9002,"internalIp":"127.0.0.1","internalPort":10002,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","curvePublicKey":"1e1469a88c047db473de7ca148889037330ca8ea9497f261458e346bc1dd8435","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"7b9b1e6618fb5c6120ac17469aeebd26a207ce5b21630ad2a9923758f12774bd","curvePublicKey":"3cc1812944bbd5b1cfb086d97d7b77e4123b69b3e61eeb5034c362d0158cf124","externalIp":"127.0.0.1","externalPort":9004,"internalIp":"127.0.0.1","internalPort":10004,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"059a197b05e6a027d3a7482527ef2e7ff528f3ddfd7be4d84fc613e89d7cd8cb","curvePublicKey":"b0b4e8f9e17ec5f9911be90458104b3eca059a4a8b8ca45af0c2dfdb6d15903d","externalIp":"127.0.0.1","externalPort":9005,"internalIp":"127.0.0.1","internalPort":10005,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"939e00a6fdec7a0e1de83ae79120ea2038af15919328fdb238bd9296b6df5920","curvePublicKey":"8a21eae0844362126891b24ecb6574255343916ebc3b78ad483aff1931e2d963","externalIp":"127.0.0.1","externalPort":9006,"internalIp":"127.0.0.1","internalPort":10006,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"b401afefc3a59a5dc10ddd79799fb852a1b28d4b5eabb98ede40cd2168c70ab0","curvePublicKey":"f15cfc21167cb16ed54e4766a46f13119c6f66c1bae39ccc0da3518019631b23","externalIp":"127.0.0.1","externalPort":9007,"internalIp":"127.0.0.1","internalPort":10007,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"45121689ea0dd4ae754d752ca321b1b8b7a48b91543f0f4f1968f532ba069e18","curvePublicKey":"43aa8565c2c66e8b4efa8812a2db007287c1a28a0624e568fd6d61c21693fe21","externalIp":"127.0.0.1","externalPort":9008,"internalIp":"127.0.0.1","internalPort":10008,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"88ec124db0b529ad40c27be1f883605c077e31fbc1c1b0ca8536998b5d74d1af","curvePublicKey":"0c7ecb200abc09309f90a1d0b76940b6afeb964b434333cf86d2fbae097e580b","externalIp":"127.0.0.1","externalPort":9009,"internalIp":"127.0.0.1","internalPort":10009,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9bb93bcecf73a1333dfa399fa1aa35deaac57be80b383653d3e45e57865878fc","curvePublicKey":"1191ad830e2e015172544dc246664fa20dbe1629f9baa44187339219f658b30b","externalIp":"127.0.0.1","externalPort":9010,"internalIp":"127.0.0.1","internalPort":10010,"status":null}}
+DBG QueryManager.query 2 started at 22:22:12.163Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 1 queryDone at 22:22:12.164Z
+DBG QueryManager.query 2 got newList at 22:22:12.168Z: []
+DBG QueryManager.query 3 started at 22:22:27.165Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 2 queryDone at 22:22:27.167Z
+DBG QueryManager.query 3 got newList at 22:22:27.170Z: []
+DBG QueryManager.query 4 started at 22:22:42.166Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 3 queryDone at 22:22:42.167Z
+DBG QueryManager.query 4 got newList at 22:22:42.170Z: []
+DBG QueryManager.query 5 started at 22:22:57.168Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 4 queryDone at 22:22:57.169Z
+DBG QueryManager.query 5 got newList at 22:22:57.173Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9bb93bcecf73a1333dfa399fa1aa35deaac57be80b383653d3e45e57865878fc","curvePublicKey":"1191ad830e2e015172544dc246664fa20dbe1629f9baa44187339219f658b30b","externalIp":"127.0.0.1","externalPort":9010,"internalIp":"127.0.0.1","internalPort":10010,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"059a197b05e6a027d3a7482527ef2e7ff528f3ddfd7be4d84fc613e89d7cd8cb","curvePublicKey":"b0b4e8f9e17ec5f9911be90458104b3eca059a4a8b8ca45af0c2dfdb6d15903d","externalIp":"127.0.0.1","externalPort":9005,"internalIp":"127.0.0.1","internalPort":10005,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","curvePublicKey":"1e1469a88c047db473de7ca148889037330ca8ea9497f261458e346bc1dd8435","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"45121689ea0dd4ae754d752ca321b1b8b7a48b91543f0f4f1968f532ba069e18","curvePublicKey":"43aa8565c2c66e8b4efa8812a2db007287c1a28a0624e568fd6d61c21693fe21","externalIp":"127.0.0.1","externalPort":9008,"internalIp":"127.0.0.1","internalPort":10008,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"939e00a6fdec7a0e1de83ae79120ea2038af15919328fdb238bd9296b6df5920","curvePublicKey":"8a21eae0844362126891b24ecb6574255343916ebc3b78ad483aff1931e2d963","externalIp":"127.0.0.1","externalPort":9006,"internalIp":"127.0.0.1","internalPort":10006,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"7b9b1e6618fb5c6120ac17469aeebd26a207ce5b21630ad2a9923758f12774bd","curvePublicKey":"3cc1812944bbd5b1cfb086d97d7b77e4123b69b3e61eeb5034c362d0158cf124","externalIp":"127.0.0.1","externalPort":9004,"internalIp":"127.0.0.1","internalPort":10004,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"88ec124db0b529ad40c27be1f883605c077e31fbc1c1b0ca8536998b5d74d1af","curvePublicKey":"0c7ecb200abc09309f90a1d0b76940b6afeb964b434333cf86d2fbae097e580b","externalIp":"127.0.0.1","externalPort":9009,"internalIp":"127.0.0.1","internalPort":10009,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"b401afefc3a59a5dc10ddd79799fb852a1b28d4b5eabb98ede40cd2168c70ab0","curvePublicKey":"f15cfc21167cb16ed54e4766a46f13119c6f66c1bae39ccc0da3518019631b23","externalIp":"127.0.0.1","externalPort":9007,"internalIp":"127.0.0.1","internalPort":10007,"status":null}}
+DBG QueryManager.query 6 started at 22:23:12.169Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 5 queryDone at 22:23:12.171Z
+DBG QueryManager.query 6 got newList at 22:23:12.175Z: []
+DBG QueryManager.query 7 started at 22:23:27.172Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 6 queryDone at 22:23:27.175Z
+DBG QueryManager.query 7 got newList at 22:23:27.181Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"e2c8056ae83f1aab6e610202c8cde677e9c474cbc3714bc27b079ef70d59f57a","curvePublicKey":"76d9d847b4232e86bbd182b930c2fada25716e2ff04efceb6c59b1613232a12d","externalIp":"127.0.0.1","externalPort":9002,"internalIp":"127.0.0.1","internalPort":10002,"status":null}}
+DBG QueryManager.query 8 started at 22:23:42.176Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 7 queryDone at 22:23:42.178Z
+DBG QueryManager.query 8 got newList at 22:23:42.181Z: []
+DBG QueryManager.query 9 started at 22:23:57.181Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 8 queryDone at 22:23:57.182Z
+DBG QueryManager.query 9 got newList at 22:23:57.185Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9bb93bcecf73a1333dfa399fa1aa35deaac57be80b383653d3e45e57865878fc","curvePublicKey":"1191ad830e2e015172544dc246664fa20dbe1629f9baa44187339219f658b30b","externalIp":"127.0.0.1","externalPort":9010,"internalIp":"127.0.0.1","internalPort":10010,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"059a197b05e6a027d3a7482527ef2e7ff528f3ddfd7be4d84fc613e89d7cd8cb","curvePublicKey":"b0b4e8f9e17ec5f9911be90458104b3eca059a4a8b8ca45af0c2dfdb6d15903d","externalIp":"127.0.0.1","externalPort":9005,"internalIp":"127.0.0.1","internalPort":10005,"status":null}}
+DBG QueryManager.query 10 started at 22:24:12.185Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 9 queryDone at 22:24:12.186Z
+DBG QueryManager.query 10 got newList at 22:24:12.190Z: []
+DBG QueryManager.query 11 started at 22:24:27.187Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 10 queryDone at 22:24:27.187Z
+DBG QueryManager.query 11 got newList at 22:24:27.192Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"7b9b1e6618fb5c6120ac17469aeebd26a207ce5b21630ad2a9923758f12774bd","curvePublicKey":"3cc1812944bbd5b1cfb086d97d7b77e4123b69b3e61eeb5034c362d0158cf124","externalIp":"127.0.0.1","externalPort":9004,"internalIp":"127.0.0.1","internalPort":10004,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"88ec124db0b529ad40c27be1f883605c077e31fbc1c1b0ca8536998b5d74d1af","curvePublicKey":"0c7ecb200abc09309f90a1d0b76940b6afeb964b434333cf86d2fbae097e580b","externalIp":"127.0.0.1","externalPort":9009,"internalIp":"127.0.0.1","internalPort":10009,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"e2c8056ae83f1aab6e610202c8cde677e9c474cbc3714bc27b079ef70d59f57a","curvePublicKey":"76d9d847b4232e86bbd182b930c2fada25716e2ff04efceb6c59b1613232a12d","externalIp":"127.0.0.1","externalPort":9002,"internalIp":"127.0.0.1","internalPort":10002,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"b401afefc3a59a5dc10ddd79799fb852a1b28d4b5eabb98ede40cd2168c70ab0","curvePublicKey":"f15cfc21167cb16ed54e4766a46f13119c6f66c1bae39ccc0da3518019631b23","externalIp":"127.0.0.1","externalPort":9007,"internalIp":"127.0.0.1","internalPort":10007,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","curvePublicKey":"1e1469a88c047db473de7ca148889037330ca8ea9497f261458e346bc1dd8435","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"45121689ea0dd4ae754d752ca321b1b8b7a48b91543f0f4f1968f532ba069e18","curvePublicKey":"43aa8565c2c66e8b4efa8812a2db007287c1a28a0624e568fd6d61c21693fe21","externalIp":"127.0.0.1","externalPort":9008,"internalIp":"127.0.0.1","internalPort":10008,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"939e00a6fdec7a0e1de83ae79120ea2038af15919328fdb238bd9296b6df5920","curvePublicKey":"8a21eae0844362126891b24ecb6574255343916ebc3b78ad483aff1931e2d963","externalIp":"127.0.0.1","externalPort":9006,"internalIp":"127.0.0.1","internalPort":10006,"status":null}}
+DBG QueryManager.query 12 started at 22:24:42.188Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 11 queryDone at 22:24:42.194Z
+DBG QueryManager.query 12 got newList at 22:24:42.197Z: []
+DBG QueryManager.query 13 started at 22:24:57.192Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 12 queryDone at 22:24:57.193Z
+DBG QueryManager.query 13 got newList at 22:24:57.196Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"059a197b05e6a027d3a7482527ef2e7ff528f3ddfd7be4d84fc613e89d7cd8cb","curvePublicKey":"b0b4e8f9e17ec5f9911be90458104b3eca059a4a8b8ca45af0c2dfdb6d15903d","externalIp":"127.0.0.1","externalPort":9005,"internalIp":"127.0.0.1","internalPort":10005,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9bb93bcecf73a1333dfa399fa1aa35deaac57be80b383653d3e45e57865878fc","curvePublicKey":"1191ad830e2e015172544dc246664fa20dbe1629f9baa44187339219f658b30b","externalIp":"127.0.0.1","externalPort":9010,"internalIp":"127.0.0.1","internalPort":10010,"status":null}}
+DBG QueryManager.query 14 started at 22:25:12.195Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 13 queryDone at 22:25:12.195Z
+DBG QueryManager.query 14 got newList at 22:25:12.198Z: []
+DBG QueryManager.query 15 started at 22:25:27.196Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 14 queryDone at 22:25:27.197Z
+DBG QueryManager.query 15 got newList at 22:25:27.199Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"7b9b1e6618fb5c6120ac17469aeebd26a207ce5b21630ad2a9923758f12774bd","curvePublicKey":"3cc1812944bbd5b1cfb086d97d7b77e4123b69b3e61eeb5034c362d0158cf124","externalIp":"127.0.0.1","externalPort":9004,"internalIp":"127.0.0.1","internalPort":10004,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"88ec124db0b529ad40c27be1f883605c077e31fbc1c1b0ca8536998b5d74d1af","curvePublicKey":"0c7ecb200abc09309f90a1d0b76940b6afeb964b434333cf86d2fbae097e580b","externalIp":"127.0.0.1","externalPort":9009,"internalIp":"127.0.0.1","internalPort":10009,"status":null}}
+DBG QueryManager.query 16 started at 22:25:42.198Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 15 queryDone at 22:25:42.199Z
+DBG QueryManager.query 16 got newList at 22:25:42.202Z: []
+DBG QueryManager.query 17 started at 22:25:57.200Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 16 queryDone at 22:25:57.201Z
+DBG QueryManager.query 17 got newList at 22:25:57.204Z: []
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"1919ac56144d01ec56342a56b35909ff99a74301963a1f27be78b7af2463f235","curvePublicKey":"1e1469a88c047db473de7ca148889037330ca8ea9497f261458e346bc1dd8435","externalIp":"127.0.0.1","externalPort":9003,"internalIp":"127.0.0.1","internalPort":10003,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"45121689ea0dd4ae754d752ca321b1b8b7a48b91543f0f4f1968f532ba069e18","curvePublicKey":"43aa8565c2c66e8b4efa8812a2db007287c1a28a0624e568fd6d61c21693fe21","externalIp":"127.0.0.1","externalPort":9008,"internalIp":"127.0.0.1","internalPort":10008,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"b401afefc3a59a5dc10ddd79799fb852a1b28d4b5eabb98ede40cd2168c70ab0","curvePublicKey":"f15cfc21167cb16ed54e4766a46f13119c6f66c1bae39ccc0da3518019631b23","externalIp":"127.0.0.1","externalPort":9007,"internalIp":"127.0.0.1","internalPort":10007,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"9bb93bcecf73a1333dfa399fa1aa35deaac57be80b383653d3e45e57865878fc","curvePublicKey":"1191ad830e2e015172544dc246664fa20dbe1629f9baa44187339219f658b30b","externalIp":"127.0.0.1","externalPort":9010,"internalIp":"127.0.0.1","internalPort":10010,"status":null}}
+DBG POST /api/seednodes {"nodeInfo":{"id":null,"publicKey":"059a197b05e6a027d3a7482527ef2e7ff528f3ddfd7be4d84fc613e89d7cd8cb","curvePublicKey":"b0b4e8f9e17ec5f9911be90458104b3eca059a4a8b8ca45af0c2dfdb6d15903d","externalIp":"127.0.0.1","externalPort":9005,"internalIp":"127.0.0.1","internalPort":10005,"status":null}}
+DBG QueryManager.query 18 started at 22:26:12.203Z, querying: [{"ip":"127.0.0.1","port":9001}]
+DBG QueryManager.query 17 queryDone at 22:26:12.204Z
+DBG QueryManager.query 18 got newList at 22:26:12.206Z: []

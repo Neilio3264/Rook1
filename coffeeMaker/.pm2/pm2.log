@@ -1,0 +1,234 @@
+2019-10-19T17:03:53: PM2 log: ===============================================================================
+2019-10-19T17:03:53: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:03:53: PM2 log: Time                 : Sat Oct 19 2019 17:03:53 GMT-0500 (Central Daylight Time)
+2019-10-19T17:03:53: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:03:53: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:03:53: PM2 log: Current arch         : x64
+2019-10-19T17:03:53: PM2 log: PM2 home             : ./.pm2
+2019-10-19T17:03:53: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-19T17:03:53: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-19T17:03:53: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-19T17:03:53: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-19T17:03:53: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-19T17:03:53: PM2 log: Concurrent actions   : 2
+2019-10-19T17:03:53: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:03:53: PM2 log: ===============================================================================
+2019-10-19T17:03:53: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-19T17:03:53: PM2 log: App [seed-node-server:0] online
+2019-10-19T17:03:54: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-19T17:03:54: PM2 log: App [monitor-server:1] online
+2019-10-19T17:05:06: PM2 log: Stopping app:seed-node-server id:0
+2019-10-19T17:05:06: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:05:06: PM2 log: pid=99900 msg=process killed
+2019-10-19T17:05:06: PM2 log: Stopping app:monitor-server id:1
+2019-10-19T17:05:06: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:05:06: PM2 log: pid=99913 msg=process killed
+2019-10-19T17:05:07: PM2 log: PM2 successfully stopped
+2019-10-19T17:05:13: PM2 log: ===============================================================================
+2019-10-19T17:05:13: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:05:13: PM2 log: Time                 : Sat Oct 19 2019 17:05:13 GMT-0500 (Central Daylight Time)
+2019-10-19T17:05:13: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:05:13: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:05:13: PM2 log: Current arch         : x64
+2019-10-19T17:05:13: PM2 log: PM2 home             : ./.pm2
+2019-10-19T17:05:13: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-19T17:05:13: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-19T17:05:13: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-19T17:05:13: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-19T17:05:13: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-19T17:05:13: PM2 log: Concurrent actions   : 2
+2019-10-19T17:05:13: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:05:13: PM2 log: ===============================================================================
+2019-10-19T17:05:13: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-19T17:05:13: PM2 log: App [seed-node-server:0] online
+2019-10-19T17:05:14: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-19T17:05:14: PM2 log: App [monitor-server:1] online
+2019-10-19T17:05:29: PM2 log: Stopping app:seed-node-server id:0
+2019-10-19T17:05:30: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:05:30: PM2 log: pid=950 msg=process killed
+2019-10-19T17:05:30: PM2 log: Stopping app:monitor-server id:1
+2019-10-19T17:05:30: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:05:30: PM2 log: pid=962 msg=process killed
+2019-10-19T17:05:31: PM2 log: PM2 successfully stopped
+2019-10-19T17:08:10: PM2 log: ===============================================================================
+2019-10-19T17:08:10: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:08:10: PM2 log: Time                 : Sat Oct 19 2019 17:08:10 GMT-0500 (Central Daylight Time)
+2019-10-19T17:08:10: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:08:10: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:08:10: PM2 log: Current arch         : x64
+2019-10-19T17:08:10: PM2 log: PM2 home             : ./.pm2
+2019-10-19T17:08:10: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-19T17:08:10: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-19T17:08:10: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-19T17:08:10: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-19T17:08:10: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-19T17:08:10: PM2 log: Concurrent actions   : 2
+2019-10-19T17:08:10: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:08:10: PM2 log: ===============================================================================
+2019-10-19T17:08:10: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-19T17:08:10: PM2 log: App [seed-node-server:0] online
+2019-10-19T17:08:11: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-19T17:08:11: PM2 log: App [monitor-server:1] online
+2019-10-19T17:09:34: PM2 log: Stopping app:seed-node-server id:0
+2019-10-19T17:09:34: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:09:34: PM2 log: pid=2076 msg=process killed
+2019-10-19T17:09:34: PM2 log: Stopping app:monitor-server id:1
+2019-10-19T17:09:34: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:09:34: PM2 log: pid=2092 msg=process killed
+2019-10-19T17:09:35: PM2 log: PM2 successfully stopped
+2019-10-19T17:15:27: PM2 log: ===============================================================================
+2019-10-19T17:15:27: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:15:27: PM2 log: Time                 : Sat Oct 19 2019 17:15:27 GMT-0500 (Central Daylight Time)
+2019-10-19T17:15:27: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:15:27: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:15:27: PM2 log: Current arch         : x64
+2019-10-19T17:15:27: PM2 log: PM2 home             : ./.pm2
+2019-10-19T17:15:27: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-19T17:15:27: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-19T17:15:27: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-19T17:15:27: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-19T17:15:27: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-19T17:15:27: PM2 log: Concurrent actions   : 2
+2019-10-19T17:15:27: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:15:27: PM2 log: ===============================================================================
+2019-10-19T17:15:35: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-19T17:15:35: PM2 log: App [seed-node-server:0] online
+2019-10-19T17:15:36: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-19T17:15:36: PM2 log: App [monitor-server:1] online
+2019-10-19T17:15:55: PM2 log: Stopping app:seed-node-server id:0
+2019-10-19T17:15:55: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:15:55: PM2 log: pid=4961 msg=process killed
+2019-10-19T17:15:55: PM2 log: Stopping app:monitor-server id:1
+2019-10-19T17:15:55: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:15:55: PM2 log: pid=4975 msg=process killed
+2019-10-19T17:15:56: PM2 log: PM2 successfully stopped
+2019-10-19T17:16:04: PM2 log: ===============================================================================
+2019-10-19T17:16:04: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:16:04: PM2 log: Time                 : Sat Oct 19 2019 17:16:04 GMT-0500 (Central Daylight Time)
+2019-10-19T17:16:04: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:16:04: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:16:04: PM2 log: Current arch         : x64
+2019-10-19T17:16:04: PM2 log: PM2 home             : ./.pm2
+2019-10-19T17:16:04: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-19T17:16:04: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-19T17:16:04: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-19T17:16:04: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-19T17:16:04: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-19T17:16:04: PM2 log: Concurrent actions   : 2
+2019-10-19T17:16:04: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:16:04: PM2 log: ===============================================================================
+2019-10-19T17:16:04: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-19T17:16:04: PM2 log: App [seed-node-server:0] online
+2019-10-19T17:16:05: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-19T17:16:05: PM2 log: App [monitor-server:1] online
+2019-10-19T17:21:09: PM2 log: Stopping app:seed-node-server id:0
+2019-10-19T17:21:09: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:21:10: PM2 log: pid=5198 msg=process killed
+2019-10-19T17:21:10: PM2 log: Stopping app:monitor-server id:1
+2019-10-19T17:21:10: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:21:10: PM2 log: pid=5212 msg=process killed
+2019-10-19T17:21:11: PM2 log: PM2 successfully stopped
+2019-10-20T07:49:48: PM2 log: ===============================================================================
+2019-10-20T07:49:48: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-20T07:49:48: PM2 log: Time                 : Sun Oct 20 2019 07:49:48 GMT-0500 (Central Daylight Time)
+2019-10-20T07:49:48: PM2 log: PM2 version          : 3.5.0
+2019-10-20T07:49:48: PM2 log: Node.js version      : 10.16.3
+2019-10-20T07:49:48: PM2 log: Current arch         : x64
+2019-10-20T07:49:48: PM2 log: PM2 home             : ./.pm2
+2019-10-20T07:49:48: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-20T07:49:48: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-20T07:49:48: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-20T07:49:48: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-20T07:49:48: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-20T07:49:48: PM2 log: Concurrent actions   : 2
+2019-10-20T07:49:48: PM2 log: SIGTERM timeout      : 1600
+2019-10-20T07:49:48: PM2 log: ===============================================================================
+2019-10-20T07:49:48: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-20T07:49:48: PM2 log: App [seed-node-server:0] online
+2019-10-20T07:49:49: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-20T07:49:49: PM2 log: App [monitor-server:1] online
+2019-10-20T07:54:33: PM2 log: Stopping app:seed-node-server id:0
+2019-10-20T07:54:33: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-20T07:54:33: PM2 log: pid=7402 msg=process killed
+2019-10-20T07:54:33: PM2 log: Stopping app:monitor-server id:1
+2019-10-20T07:54:33: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-20T07:54:33: PM2 log: pid=7414 msg=process killed
+2019-10-20T07:54:34: PM2 log: PM2 successfully stopped
+2019-10-20T07:54:42: PM2 log: ===============================================================================
+2019-10-20T07:54:42: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-20T07:54:42: PM2 log: Time                 : Sun Oct 20 2019 07:54:42 GMT-0500 (Central Daylight Time)
+2019-10-20T07:54:42: PM2 log: PM2 version          : 3.5.0
+2019-10-20T07:54:42: PM2 log: Node.js version      : 10.16.3
+2019-10-20T07:54:42: PM2 log: Current arch         : x64
+2019-10-20T07:54:42: PM2 log: PM2 home             : ./.pm2
+2019-10-20T07:54:42: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-20T07:54:42: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-20T07:54:42: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-20T07:54:42: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-20T07:54:42: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-20T07:54:42: PM2 log: Concurrent actions   : 2
+2019-10-20T07:54:42: PM2 log: SIGTERM timeout      : 1600
+2019-10-20T07:54:42: PM2 log: ===============================================================================
+2019-10-20T07:54:42: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-20T07:54:42: PM2 log: App [seed-node-server:0] online
+2019-10-20T07:54:43: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-20T07:54:43: PM2 log: App [monitor-server:1] online
+2019-10-20T07:55:29: PM2 log: Stopping app:seed-node-server id:0
+2019-10-20T07:55:29: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-20T07:55:29: PM2 log: pid=9063 msg=process killed
+2019-10-20T07:55:29: PM2 log: Stopping app:monitor-server id:1
+2019-10-20T07:55:29: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-20T07:55:29: PM2 log: pid=9077 msg=process killed
+2019-10-20T07:55:30: PM2 log: PM2 successfully stopped
+2019-10-20T07:55:34: PM2 log: ===============================================================================
+2019-10-20T07:55:34: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-20T07:55:34: PM2 log: Time                 : Sun Oct 20 2019 07:55:34 GMT-0500 (Central Daylight Time)
+2019-10-20T07:55:34: PM2 log: PM2 version          : 3.5.0
+2019-10-20T07:55:34: PM2 log: Node.js version      : 10.16.3
+2019-10-20T07:55:34: PM2 log: Current arch         : x64
+2019-10-20T07:55:34: PM2 log: PM2 home             : ./.pm2
+2019-10-20T07:55:34: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-20T07:55:34: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-20T07:55:34: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-20T07:55:34: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-20T07:55:34: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-20T07:55:34: PM2 log: Concurrent actions   : 2
+2019-10-20T07:55:34: PM2 log: SIGTERM timeout      : 1600
+2019-10-20T07:55:34: PM2 log: ===============================================================================
+2019-10-20T07:55:34: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-20T07:55:34: PM2 log: App [seed-node-server:0] online
+2019-10-20T07:55:35: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-20T07:55:35: PM2 log: App [monitor-server:1] online
+2019-10-20T07:58:09: PM2 log: Stopping app:seed-node-server id:0
+2019-10-20T07:58:09: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-20T07:58:09: PM2 log: pid=9445 msg=process killed
+2019-10-20T07:58:09: PM2 log: Stopping app:monitor-server id:1
+2019-10-20T07:58:09: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-20T07:58:09: PM2 log: pid=9459 msg=process killed
+2019-10-20T07:58:10: PM2 log: PM2 successfully stopped
+2019-10-20T08:42:42: PM2 log: ===============================================================================
+2019-10-20T08:42:42: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-20T08:42:42: PM2 log: Time                 : Sun Oct 20 2019 08:42:42 GMT-0500 (Central Daylight Time)
+2019-10-20T08:42:42: PM2 log: PM2 version          : 3.5.0
+2019-10-20T08:42:42: PM2 log: Node.js version      : 10.16.3
+2019-10-20T08:42:42: PM2 log: Current arch         : x64
+2019-10-20T08:42:42: PM2 log: PM2 home             : ./.pm2
+2019-10-20T08:42:42: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pm2.pid
+2019-10-20T08:42:42: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/rpc.sock
+2019-10-20T08:42:42: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/pub.sock
+2019-10-20T08:42:42: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/logs
+2019-10-20T08:42:42: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/.pm2/dump.pm2
+2019-10-20T08:42:42: PM2 log: Concurrent actions   : 2
+2019-10-20T08:42:42: PM2 log: SIGTERM timeout      : 1600
+2019-10-20T08:42:42: PM2 log: ===============================================================================
+2019-10-20T08:42:42: PM2 log: App [seed-node-server:0] starting in -fork mode-
+2019-10-20T08:42:42: PM2 log: App [seed-node-server:0] online
+2019-10-20T08:42:43: PM2 log: App [monitor-server:1] starting in -fork mode-
+2019-10-20T08:42:43: PM2 log: App [monitor-server:1] online
+2019-10-20T08:46:09: PM2 log: Stopping app:seed-node-server id:0
+2019-10-20T08:46:09: PM2 log: App [seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-20T08:46:09: PM2 log: pid=13754 msg=process killed
+2019-10-20T08:46:09: PM2 log: Stopping app:monitor-server id:1
+2019-10-20T08:46:09: PM2 log: App [monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-20T08:46:09: PM2 log: pid=13761 msg=process killed
+2019-10-20T08:46:10: PM2 log: PM2 successfully stopped

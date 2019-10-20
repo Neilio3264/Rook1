@@ -1,0 +1,2 @@
+[2019-10-19T17:26:19.506] [FATAL] fatal - sendGossipIn: Error: connect ECONNREFUSED 127.0.0.1:10002 at Error: connect ECONNREFUSED 127.0.0.1:10002
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1106:14)

@@ -1,0 +1,121 @@
+2019-10-19T17:21:55: PM2 log: ===============================================================================
+2019-10-19T17:21:55: PM2 log: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19T17:21:55: PM2 log: Time                 : Sat Oct 19 2019 17:21:55 GMT-0500 (Central Daylight Time)
+2019-10-19T17:21:55: PM2 log: PM2 version          : 3.5.0
+2019-10-19T17:21:55: PM2 log: Node.js version      : 10.16.3
+2019-10-19T17:21:55: PM2 log: Current arch         : x64
+2019-10-19T17:21:55: PM2 log: PM2 home             : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/
+2019-10-19T17:21:55: PM2 log: PM2 PID file         : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/pm2.pid
+2019-10-19T17:21:55: PM2 log: RPC socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/rpc.sock
+2019-10-19T17:21:55: PM2 log: BUS socket file      : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/pub.sock
+2019-10-19T17:21:55: PM2 log: Application log path : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/logs
+2019-10-19T17:21:55: PM2 log: Process dump file    : /Users/neil/Documents/Hackathon/EMTech/coffeeMaker/instances/.pm2/dump.pm2
+2019-10-19T17:21:55: PM2 log: Concurrent actions   : 2
+2019-10-19T17:21:55: PM2 log: SIGTERM timeout      : 1600
+2019-10-19T17:21:55: PM2 log: ===============================================================================
+2019-10-19T17:21:55: PM2 log: App [Seed-node-server:0] starting in -fork mode-
+2019-10-19T17:21:55: PM2 log: App [Seed-node-server:0] online
+2019-10-19T17:21:56: PM2 log: App [Monitor-server:1] starting in -fork mode-
+2019-10-19T17:21:56: PM2 log: App [Monitor-server:1] online
+2019-10-19T17:21:56: PM2 log: App [shardus-instance-9001:2] starting in -fork mode-
+2019-10-19T17:21:56: PM2 log: App [shardus-instance-9001:2] online
+2019-10-19T17:21:56: PM2 log: App [shardus-instance-9002:3] starting in -fork mode-
+2019-10-19T17:21:56: PM2 log: App [shardus-instance-9002:3] online
+2019-10-19T17:21:57: PM2 log: App [shardus-instance-9003:4] starting in -fork mode-
+2019-10-19T17:21:57: PM2 log: App [shardus-instance-9003:4] online
+2019-10-19T17:21:57: PM2 log: App [shardus-instance-9004:5] starting in -fork mode-
+2019-10-19T17:21:57: PM2 log: App [shardus-instance-9004:5] online
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9005:6] starting in -fork mode-
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9005:6] online
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9006:7] starting in -fork mode-
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9006:7] online
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9007:8] starting in -fork mode-
+2019-10-19T17:21:58: PM2 log: App [shardus-instance-9007:8] online
+2019-10-19T17:21:59: PM2 log: App [shardus-instance-9008:9] starting in -fork mode-
+2019-10-19T17:21:59: PM2 log: App [shardus-instance-9008:9] online
+2019-10-19T17:21:59: PM2 log: App [shardus-instance-9009:10] starting in -fork mode-
+2019-10-19T17:21:59: PM2 log: App [shardus-instance-9009:10] online
+2019-10-19T17:22:00: PM2 log: App [shardus-instance-9010:11] starting in -fork mode-
+2019-10-19T17:22:00: PM2 log: App [shardus-instance-9010:11] online
+2019-10-19T17:26:19: PM2 log: Stopping app:Seed-node-server id:0
+2019-10-19T17:26:19: PM2 log: Stopping app:Monitor-server id:1
+2019-10-19T17:26:19: PM2 log: App [Seed-node-server:0] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:19: PM2 log: App [Monitor-server:1] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:19: PM2 log: pid=7432 msg=process killed
+2019-10-19T17:26:19: PM2 log: pid=7441 msg=process killed
+2019-10-19T17:26:19: PM2 log: Stopping app:shardus-instance-9001 id:2
+2019-10-19T17:26:19: PM2 log: Stopping app:shardus-instance-9002 id:3
+2019-10-19T17:26:19: PM2 log: App [shardus-instance-9002:3] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7456 msg=process killed
+2019-10-19T17:26:19: PM2 log: Stopping app:shardus-instance-9003 id:4
+2019-10-19T17:26:19: PM2 log: App [shardus-instance-9003:4] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7461 msg=process killed
+2019-10-19T17:26:19: PM2 log: Stopping app:shardus-instance-9004 id:5
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:19: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7445 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:20: PM2 log: Process with pid 7445 still alive after 1600ms, sending it SIGKILL now...
+2019-10-19T17:26:20: PM2 log: App [shardus-instance-9001:2] exited with code [0] via signal [SIGKILL]
+2019-10-19T17:26:20: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:21: PM2 log: pid=7445 msg=process killed
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9005 id:6
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9005:6] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: pid=7465 msg=failed to kill - retrying in 100ms
+2019-10-19T17:26:21: PM2 log: Process with pid 7465 still alive after 1600ms, sending it SIGKILL now...
+2019-10-19T17:26:21: PM2 log: pid=7477 msg=process killed
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9006 id:7
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9004:5] exited with code [0] via signal [SIGKILL]
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9006:7] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: pid=7465 msg=process killed
+2019-10-19T17:26:21: PM2 log: pid=7484 msg=process killed
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9007 id:8
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9008 id:9
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9007:8] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9008:9] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: pid=7498 msg=process killed
+2019-10-19T17:26:21: PM2 log: pid=7503 msg=process killed
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9009 id:10
+2019-10-19T17:26:21: PM2 log: Stopping app:shardus-instance-9010 id:11
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9009:10] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: App [shardus-instance-9010:11] exited with code [0] via signal [SIGINT]
+2019-10-19T17:26:21: PM2 log: pid=7508 msg=process killed
+2019-10-19T17:26:21: PM2 log: pid=7518 msg=process killed
+2019-10-19T20:21:42: PM2 log: pm2 has been killed by signal, dumping process list before exit...
+2019-10-19T20:21:43: PM2 log: Deleting process 0
+2019-10-19T20:21:43: PM2 log: Deleting process 1
+2019-10-19T20:21:43: PM2 log: Deleting process 2
+2019-10-19T20:21:43: PM2 log: Deleting process 3
+2019-10-19T20:21:43: PM2 log: Deleting process 4
+2019-10-19T20:21:43: PM2 log: Deleting process 5
+2019-10-19T20:21:43: PM2 log: Deleting process 6
+2019-10-19T20:21:43: PM2 log: Deleting process 7
+2019-10-19T20:21:43: PM2 log: Deleting process 8
+2019-10-19T20:21:43: PM2 log: Deleting process 9
+2019-10-19T20:21:43: PM2 log: Deleting process 10
+2019-10-19T20:21:43: PM2 log: Deleting process 11
+2019-10-19T20:21:43: PM2 log: Exited peacefully
